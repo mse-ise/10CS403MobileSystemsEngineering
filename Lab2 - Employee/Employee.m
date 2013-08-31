@@ -1,0 +1,44 @@
+#import "Employee.h"
+
+@implementation Employee
+
+//Set method defininitions
+-(void)setName:(NSString *)newName
+{
+	name =[[NSString alloc] initWithString: newName];
+}
+
+-(void)setDepartment:(NSString *)newDepartment
+{
+	department =[[NSString alloc] initWithString: newDepartment];
+}
+
+-(void)setEmpId:(int )newEmpId
+{
+	empId =newEmpId;
+}
+
+
+-(NSString *)name
+{ 
+	return name;
+}
+
+-(NSString *)department
+{
+	return department;
+}
+
+/*
+-(NSNumber *)empId
+{
+	return empId;
+}
+*/
+
+-(int)empId
+{
+	return empId;
+}
+
+@end

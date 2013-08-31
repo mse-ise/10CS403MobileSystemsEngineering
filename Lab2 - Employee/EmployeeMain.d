@@ -1,4 +1,4 @@
-CalculatorMain.o: CalculatorMain.m Calculator.m Calculator.h \
+EmployeeMain.o: EmployeeMain.m \
  /usr/include/GNUstep/Foundation/Foundation.h \
  /usr/include/GNUstep/GNUstepBase/GSVersionMacros.h \
  /usr/include/GNUstep/GNUstepBase/GSConfig.h \
@@ -131,11 +131,7 @@ CalculatorMain.o: CalculatorMain.m Calculator.m Calculator.h \
  /usr/include/GNUstep/Foundation/NSXMLDTD.h \
  /usr/include/GNUstep/Foundation/NSXMLDTDNode.h \
  /usr/include/GNUstep/Foundation/NSXMLElement.h \
- /usr/include/GNUstep/Foundation/NSXMLParser.h
-
-Calculator.m:
-
-Calculator.h:
+ /usr/include/GNUstep/Foundation/NSXMLParser.h Employee.h
 
 /usr/include/GNUstep/Foundation/Foundation.h:
 
@@ -402,3 +398,5 @@ Calculator.h:
 /usr/include/GNUstep/Foundation/NSXMLElement.h:
 
 /usr/include/GNUstep/Foundation/NSXMLParser.h:
+
+Employee.h:
