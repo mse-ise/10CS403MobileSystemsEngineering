@@ -2,7 +2,7 @@
 
 @implementation Calculator:NSObject
 
-///Function definitions
+///Function definitions.
 -(void)setNum1:(double)num
 {
 	num1 = num;

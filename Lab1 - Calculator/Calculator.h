@@ -6,6 +6,7 @@
 	double num2;
 }
 
+//Function declarations.
 -(void)setNum1:(double)num;
 -(void)setNum2:(double)num;
 -(double)add;
