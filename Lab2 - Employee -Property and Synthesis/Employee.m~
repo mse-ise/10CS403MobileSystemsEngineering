@@ -1,0 +1,7 @@
+#import "Employee.h"
+
+@implementation Employee
+
+@synthesize (assign) name,department,empId;
+
+@end
