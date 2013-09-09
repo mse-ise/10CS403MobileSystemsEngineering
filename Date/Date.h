@@ -1,0 +1,20 @@
+#import <Foundation/Foundation.h>
+
+@interface Date:NSObject
+{
+    NSDate *now;
+    NSDate *dayAfter;
+    NSDate *lastThursday;
+   
+}
+
+@property (retain,nonatomic) NSDate *now;
+@property (retain,nonatomic) NSDate *dayAfter;
+@property (retain,nonatomic) NSDate *lastThursday;
+
+-(void) print;
+-(void) earlier;
+-(void) lastThursday;
+-(void) tenthDay;
+
+@end

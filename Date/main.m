@@ -1,0 +1,23 @@
+#import <Foundation/Foundation.h>
+#import "Date.h"
+
+int main(int argc,char *argv[])
+{
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];    
+
+    NSDate *now = [NSDate date];
+    NSTimeInterval secondsInDays = 24 * 60 * 60;
+    Date *d = [[Date alloc] init];
+
+    [d setNow : now];
+    [d setDayAfter : [now addTimeInterval : secondsInDays * 2]];
+    
+    [d print];
+    [d earlier];
+    [d lastThursday];
+    [d tenthDay];
+    
+    [d release];
+    [pool release];
+    return 0;
+}
